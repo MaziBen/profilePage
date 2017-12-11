@@ -1,0 +1,263 @@
+body {
+    background-color: whitesmoke;
+}
+#all {
+    padding: 0 1em;
+}
+#navbar{
+    height: 3em;
+    background-color: antiquewhite;
+    text-align: center;
+}
+#navbar ul li{
+    float: left;
+    border: solid 1px;
+    border-radius: 10px;
+    border-color: white;
+    margin: 0 30px;
+    font-size: 90%;
+    margin-top: 12px;
+    text-decoration-color: white;
+}
+#navbar ul{
+    list-style-type: none;
+    padding: 0; margin: 0;
+    display: inline-block;
+}
+#navbar ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 2px 20px 2px 20px;
+    }
+#ben{
+    width: 500px;
+    height: 500px;
+    border-style: hidden;
+    border-radius: 50%;
+    margin-left: 31.5%;
+}
+h2{
+    display: block;
+    margin-left: 42%;
+    font-family: sans-serif;
+    font-style: italic;
+    color: darkslategray;
+}
+#strip{
+    background-color: bisque;
+    height: 2em;
+    text-align: center;
+    
+}
+#strip ul{
+    list-style-type: square;
+    padding: 0; margin: 0;
+    display: inline-block;
+}
+#strip ul li{
+    float: left;
+    margin: 7px 30px;
+    color: brown;
+}
+    
+#main{
+    background-color: aliceblue;
+    padding-top: 15px;
+    /*background-image: url(images/bacteria.jpg);*/
+}
+#contact{
+    background-color: beige;
+    margin-top: 10px;
+    float: left;
+    width: 64%;
+    margin-bottom: 5px;
+}
+#contact ul{
+    list-style-type: none;
+    padding: 0; margin: 0 10%;
+}
+.logo{
+    margin-top: 5px;
+    height: 30px;
+    width: 30px;
+}
+.media{
+    display: inline-block;
+    margin: 0 20px 5px 20px;
+}
+#contact a{
+    text-decoration: none;
+    color: darkturquoise; 
+}
+#spark{
+    float: right;
+    margin-right: 50px;
+    height: 250px;
+    width: 150px;
+}
+#base{
+    background-color: floralwhite;
+    margin-top: 10px;
+    float: right;
+    width: 35%;
+    height: 263px;
+    margin-bottom: 5px;
+}
+#quote{
+    font-size: 250%;
+    display: inline-block;
+    padding: 10px;
+    color: darkgreen;
+}
+form{
+    clear: left;
+    align-self: center;
+    width: 100%;
+    background-color: aliceblue;
+}
+.name, .email{
+		float: left;
+		width: 50%;
+		-webkit-box-sizing: border-box;
+    	-moz-box-sizing: border-box;
+    box-sizing: border-box;}
+form ul{
+    list-style-type: none;
+} 
+#email{
+    width: 100%;
+}
+#name{
+    width: 90%;
+}
+#message{
+    width: 100%;
+}
+#send{
+    margin-left: 40px;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    clear: left;
+    color: white;
+    height: 20px;
+    margin-top: 5px;
+    }
+
+/*====================================ABOUT ME================================*/
+
+#aboutbody{
+    background-color: white;
+}
+header{
+    height: 50px;
+    background-color: aliceblue;
+}
+#aboutImg{
+    float: left;
+    width: 45px;
+    height: 45px;
+    border-style: hidden;
+    border-radius: 50%;
+    margin: 2px 0 0 20px;
+}
+#sparkAbt{
+    float: right;
+    width: 45px;
+    height: 45px;
+    border-style: hidden;
+    border-radius: 50%;
+    padding: 2px 20px 0 0;
+}
+h3{
+    color: forestgreen;
+    font-size: 110%;
+    font-family: sans-serif;
+}
+#opening{
+    border-style: outset;
+    height: 70px;
+    font-size: 120%;
+    background-color: beige;
+}
+#core{
+    background-color:bisque;
+    height: 30px;
+    margin-top: 5px;
+    text-align: center;
+}
+#hard{
+    border-style: outset;
+    margin-top: 5px;
+    width: 49%;
+    height: 130px;
+    float: left;
+    background-color: beige;
+    font-size: 110%;
+}
+#empty1{
+    border-style: inset;
+    margin-top: 5px;
+    width: 49%;
+    height: 130px;
+    float: right;
+    background-color: ghostwhite;
+}
+#empty2{
+    clear: both;
+    margin: 5px 0 5px 0;
+    border-style: inset;
+    width: 49%;
+    height: 130px;
+    float: left;
+    background-color: ghostwhite;
+}
+#soft{
+    margin: 5px 0 5px 0;
+    border-style: outset;
+    width: 49%;
+    height: 130px;
+    float: right;
+    background-color: beige;
+    font-size: 110%;
+}
+#certHeading{
+    clear: both;
+    border-style: hidden;
+    height: 30px;
+    text-align: center;
+    background-color: bisque;
+}
+#cert{
+    clear: both;
+    margin-top: 5px;
+    border-style: outset;
+    background-color: beige;
+    font-size: 110%;
+}
+
+
+/*====================================ARCHIVES================================*/
+
+#web, #bus, #cont, #brand, #mcb {
+    background-color:bisque;
+    height: 30px;
+    margin-top: 5px;
+    text-align: center;
+}
+#bus, #cont, #brand, #mcb {
+    clear: both;
+}
+.vogue, .swap, .write, .brnd, .science{
+    border-style: outset;
+    width: 420px;
+    height: 420px;
+    float: left;
+    margin-left: 5px;
+}
+
+
+
+
+
